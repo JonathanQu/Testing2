@@ -1,0 +1,23 @@
+//Jonathan Quang
+//APCS1 pd5
+//HW1 -- Howdy,Partner!
+//2016-09-14   
+
+
+public class Greet {
+    public static void main (String(x)) {
+	System.out.println("No hablo queso");
+    }
+}
+
+//This form of defining a simple variation of the hello world function
+//is different in comparison to defining a function in
+//python, netlogo, or scheme. The first line defines something called a class
+//that is, perhaps, public. The second line contains the word public, but
+//also something about the function being static. It also contains
+//the word void, which might reference how the function takes no input.
+//The second line also mentions something about strings and arguments.
+//The third line seems to tell the computer(the system) to output
+//a line with "No hablo queso." Overall, every opening bracked has a closing
+//braket. The third line, which is the only line that contains an "action"
+//has a semicolon at the end of it.

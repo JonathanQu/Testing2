@@ -1,0 +1,8 @@
+mine: null--heads
+yours: quarter--heads
+wayne: dollar--heads
+
+After flipping...
+yours: quarter--heads
+wayne: dollar--heads
+Matchee matchee!

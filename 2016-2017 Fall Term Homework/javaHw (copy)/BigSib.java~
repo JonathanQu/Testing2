@@ -1,0 +1,9 @@
+
+public class BigSib {
+    public static void sibGreet(String name){
+	System.out.print("Hi lil sib. ");
+	System.out.print("I am ");
+	System.out.println(name + '.');
+
+    }
+} 

@@ -1,0 +1,25 @@
+
+Jonathan Quang 
+CS Intro1 period 07
+HW04
+9/16/15
+	In the 2015 NYC Tech Meetup, one of the required videos to watch was one on Lynx. 
+It introduces an app that gives a new way to share and discover links. With the app, links can be shared 
+to other users with the app for it to appear in the app's own inbox, or it can be sent to others without the
+link, it will just end up in the inbox. The app also displays trending links being shared. If the user
+find the link worthy of being shared, it can be shared through the app.
+	The second section of the meetup that was required to watch was the program TLDR, made
+by Stuyvesant alumni. These alumni created a website that summarizes articles using an algorithim
+that counts repeated words. Key terms will be displayed in a summary, making this program an
+efficient way to filter through long articles.
+	The third section was about a program called Vynl, which was also made by Stuyvesant
+alumni. It gives a way for users to easily get music and put it in a playlist. This can then be shared via
+the QR code. This simplifies the process of having to search the web for music, download the the music
+file, and playing it in an order that is not easily modified. The playlists can be edited by anyone, and can
+be upvoted or downvoted.
+	The final section was about a program called Wibbitz. It automates something that woud have
+taken many students at least a couple hours to do. It takes text from an article, licensed images, adds
+fancy transitions, and text to speech to create a short video that summarizes the text in the aricle. This
+website was created to display the information contained in long articles in a short amount of time in
+a short, concise, and somewhat visually stimulating way.
+	

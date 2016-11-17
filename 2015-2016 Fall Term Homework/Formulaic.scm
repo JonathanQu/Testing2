@@ -1,0 +1,50 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname Formulaic) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+; Jonathan Quang
+; IntroCS1 pd7
+; HW10 -- Formulaic/Creating even more functions/Practice creating more functions with modularity in mind
+; 2015-10-6  
+
+;Define CartDist that takes two coordinates and applies the distance
+;formula to the two numbers.
+(define CartDist
+    (lambda (X1 Y1 X2 Y2)
+        (sqrt (+ (* (- X2 X1) (- X2 X1)) (* (- Y2 Y1) (- Y2 Y1))))))
+        
+(CartDist 0 0 0 0) ;expected result is 0
+(CartDist 4 4 4 4) ;expected result is 0
+(CartDist 0 0 3 4) ;expected result is 5
+
+;Define ArithMean3 as a function that takes three inputs and finds
+;the average between them
+(define ArithMean3 
+    (lambda (a b c)
+        (/ (+ a b c) 3)))
+
+(ArithMean3 0 0 0) ;expected output is 0
+(ArithMean3 1 2 3) ;expected output is 2
+(ArithMean3 5 -10 20) ;expected outputs is 5
+
+;Define Harmean3 as a function that takes the reciprocal of each
+;input, averages them, then outputs the reciprocal of the average
+;which is the harmoic mean
+(define HarMean3
+    (lambda ( a b c)
+        (/ 1 (ArithMean3 (/ 1 a) (/ 1 b) (/ 1 c)))))
+(HarMean3 5 5 5) ;expected output is 5
+(HarMean3 3 6 18) ;expected output is 5.4
+(HarMean3 5 -10 20) ;expected output is 20
+
+;Define MAX2 as a function that takes two inputs and outputs the
+;greater of the two inputs.
+(define MAX2
+  (lambda (a b)
+    (/ (+ a b (abs (- a b))) 2)))
+;Taking the absolute value of the difference of a and b, then adding
+;it to a and b will result in twice the larger number, dividing this
+;in half results in the larger number
+
+(MAX2 4 4) ;expected output is 4
+(MAX2 4 7) ;expected output is 7
+(MAX2 9 8) ;expected output is 9

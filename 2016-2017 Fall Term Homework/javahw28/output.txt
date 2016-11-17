@@ -1,0 +1,88 @@
+
+Machine01 initial state:	lime	lime	lime
+Machine02 initial state:	lime	lime	lime
+
+Spinning machine01...
+
+
+Machine01 state:	lemon	cherry	peach
+Machine02 state:	lime	lime	lime
+
+Preparing to spin until a mini win! . . .
+------------------------------------
+====================================
+Your spin...	lemon	cherry	peach
+WIN
+
+Preparing to spin until...jackpot! . . .
+------------------------------------
+Your spin...	lemon	cherry	peach
+LOSE
+
+Your spin...	lemon	ugli	peach
+LOSE
+
+Your spin...	orange	lime	peach
+LOSE
+
+Your spin...	ugli	cherry	lemon
+LOSE
+
+Your spin...	grapefruit	peach	tangerine
+LOSE
+
+Your spin...	orange	grapefruit	peach
+LOSE
+
+Your spin...	ugli	peach	lime
+LOSE
+
+Your spin...	lime	ugli	grapefruit
+LOSE
+
+Your spin...	peach	tangerine	cherry
+LOSE
+
+Your spin...	lemon	grapefruit	peach
+LOSE
+
+Your spin...	lime	peach	peach
+LOSE
+
+Your spin...	lemon	ugli	tangerine
+LOSE
+
+Your spin...	orange	cherry	orange
+LOSE
+
+Your spin...	lime	ugli	lime
+LOSE
+
+Your spin...	cherry	tangerine	lime
+LOSE
+
+Your spin...	peach	lime	grapefruit
+LOSE
+
+Your spin...	peach	lemon	tangerine
+LOSE
+
+Your spin...	orange	lime	lemon
+LOSE
+
+Your spin...	cherry	lime	lime
+LOSE
+
+Your spin...	tangerine	lime	peach
+LOSE
+
+Your spin...	cherry	grapefruit	cherry
+LOSE
+
+Your spin...	grapefruit	lemon	ugli
+LOSE
+
+====================================
+Your spin...	grapefruit	grapefruit	grapefruit
+JACKPOT!
+

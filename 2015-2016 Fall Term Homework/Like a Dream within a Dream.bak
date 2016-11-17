@@ -1,0 +1,23 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |Like a Dream within a Dream|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+; Jonathan Quang
+; IntroCS1 pd7
+; HW18 -- Like a Dream Within a Dream... /Recursive Functions/ Using the concept of recursive functions, write a program that calculates factorial
+; 2015-10-21
+
+;fact is the mathematical function factorial
+(define fact
+  (lambda (n)
+  (cond
+    ((or (= n 0) (= n 1)) 1) ;accounts for the case of 1 and 0 factorial being one. Once a value of 1 is returned, this recusive will end and a product will be evaluated
+    (else (* n (fact (- n 1))))))) ;multiplies n by n-1 followed by n-2 and so on and so forth
+;by asking the fact function to evaluate the new n (which is n-1) as a factor of the first time fact was called.
+
+(fact 0);1
+(fact 1);1
+(fact 2);2
+(fact 3);6
+(fact 4);24
+(fact 5);120
+(fact 6);720

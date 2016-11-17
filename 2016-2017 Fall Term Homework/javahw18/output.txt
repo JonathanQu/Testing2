@@ -1,0 +1,14 @@
+mine: null--heads
+yours: quarter--heads
+wayne: dollar--heads
+
+After flipping...
+yours: quarter--tails
+wayne: dollar--tails
+Matchee matchee!
+It took 11 flips to get heads 4 times.
+It took 14 flips to get heads 8 times.
+It took 21 flips to get 7 matches.
+It took 35 flips to get 20 matches.
+It took 4054 flips to get at least 13 matches and matches divisible by 2000.
+It took 3982 flips to get at least 13 matches and matches divisible by 1999.

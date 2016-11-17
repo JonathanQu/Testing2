@@ -1,0 +1,7 @@
+http://www.webmonkey.com/2010/02/html_cheatsheet/#Tables
+http://www.w3schools.com/html/html_basic.asp
+http://www.simplehtmlguide.com/cheatsheet.php
+
+<a href="http://www.webmonkey.com/2010/02/html_cheatsheet/#Tables"> HTML Cheatsheet at webmonkey</a>
+<a href="http://www.w3schools.com/html/html_basic.aspl"> w3schools html tutorial </a>
+<a href="http://www.simplehtmlguide.com/cheatsheet.php"> A more detailed cheat sheet</a>

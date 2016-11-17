@@ -1,0 +1,35 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname Reverse) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+
+;does 10^n basically
+(define exponentWith10
+  (lambda (n)
+    (cond
+      ((< n 0) 0.1)
+      (else (* 10 (exponentWith10 (- n 1)))))))
+
+(exponentWith10 5);100000
+(exponentWith10 2);100
+
+;baseCounter is my work around for not being able to define a starting variable before using them within a function
+;it is meant to work with baseNum and storage as 1 and 0 respectively
+;
+(define baseCounter
+  (lambda (n baseNum storage)
+    (cond
+      ((< n 1) (* storage (exponentWith10 (- baseNum 1))))
+      (else (baseCounter (quotient n 10) (+ 1 baseNum) (+ storage (/ (remainder n 10) (exponentWith10 baseNum))))))))
+
+(baseCounter 15 1 0)
+(baseCounter 159 1 0)
+
+(define reverseNum
+  (lambda (n)
+    (baseCounter n 1 0)))
+
+(reverseNum 4)
+(reverseNum 65)
+(reverseNum 75429)
+
+    

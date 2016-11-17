@@ -1,0 +1,33 @@
+Jonathan Quang
+IntroCS1 pd7
+HW57 -- Ideas for Final Project
+2016-01-07
+
+Idea 1:  Tower Defence Game
+Enemies travel down a set path while the player places towers that automatically deal damage to enemies as they pass in a certain way. As time progresses, enemies
+become harder to kill and drop more money when they die. The money can be invested in buying more expensive towers.
+
+
+
+
+
+
+
+Idea 2: Bullet Hell Spaceship Game
+Using the usual WASD movement, a spaceship / turtle will be controlled and be able to fire its guns and missiles. As the game progresses,
+there will be more enemies with more difficult movement and shooting patterns. The player can randomly pick up upgrades that improve the ship's
+weapons.
+
+
+
+
+
+
+
+
+
+
+
+Idea 3: Powder Game Recreation
+Recreate a version of the classic physics simulation powder game that is suitable for use in netlogo. The powder game involves dropping squares that simiulate 
+certain things in real life, such as water, fire, and explosive gas. 
